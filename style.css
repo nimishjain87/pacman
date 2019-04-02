@@ -1,0 +1,56 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  border: 10px solid black;
+}
+.pacman-row-wrapper {
+  display: flex;
+}
+.grid {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: transparent;
+}
+.black {
+  background: black;
+  color: white;
+}
+.white {
+  background: white;
+  color: black;
+}
+.grid:before {
+  content: '';
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  padding-top: 100%;
+}
+.form-control {
+  width: 200px;
+  padding: 5px;
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 5px;
+  margin-top: 20px;
+}
+.report {
+  color: red;
+  font-weight: bold;
+}
+.pacman-command-wrapper {
+  margin: 50px auto;
+  text-align: center;
+}
